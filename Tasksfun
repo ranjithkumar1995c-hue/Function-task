@@ -31,3 +31,31 @@ Task No-3
 	public static void main(String[] args) {
 		printcube(3);
 }}
+// Task No-4
+//	Create a function to check whether a number is positive.
+	
+	Scanner sc=new Scanner(System.in);
+	int n=sc.nextInt();
+//1&2
+	if(n>0) {
+		System.out.println("Positive");
+		
+	}
+	else if(n==0) {
+		System.out.println("Zero");
+	}
+	else {
+		
+		System.out.println("Nagative");
+	}
+	
+}}
+
+
+
+
+
+
+
+
+
