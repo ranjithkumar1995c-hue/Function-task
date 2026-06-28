@@ -50,6 +50,20 @@ Task No-3
 	}
 	
 }}
+Task No-5
+//	Create a function to return sum of two numbers.
+	public int sum(int a,int b) 
+	{
+		int c=a+b;
+		return c;
+	}
+	public static void main(String[] args) {
+		Hellotask h=new Hellotask();
+		int a=20;
+		int b=30;
+		System.out.println(h.sum(a,b));
+	}
+}
 
 
 
