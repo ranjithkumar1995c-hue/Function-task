@@ -1,1 +1,16 @@
+create a function to print "Hello World".
+package Functiontask;
+import java.util.Scanner;
+//Task No:1
 
+public class Hellotask {
+	public void sum() {
+		System.out.println("Hello world");
+	}
+
+	public static void main(String[] args) {
+		Hellotask ma=new Hellotask();
+		ma.sum();
+		ma.sum();
+		ma.sum();
+}}
