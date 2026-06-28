@@ -22,3 +22,12 @@ Task No-2
 	public static void main(String[] args) {
 		
 	printsquare(25);
+Task No-3
+// Create a function to return cube of a number.
+	public static void printcube(int number) {
+		System.out.println("cube="+(number*number*number));
+		
+	}
+	public static void main(String[] args) {
+		printcube(3);
+}}
