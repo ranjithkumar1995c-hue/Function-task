@@ -14,3 +14,11 @@ public class Hellotask {
 		ma.sum();
 		ma.sum();
 }}
+Task No-2
+//	Create a function that takes a number and prints its square.
+    public static void printsquare(int number) {
+		System.out.println("Square = " + (number * number));
+	}
+	public static void main(String[] args) {
+		
+	printsquare(25);
