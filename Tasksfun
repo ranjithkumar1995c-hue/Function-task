@@ -176,6 +176,27 @@ Create a function that returns the length of a string.
 }
 (OP)-122.0
 
+Task No:11	
+//	Create a function to return the largest of two numbers.
+	public static int largest(int a,int b) {
+		if(a>b) {
+			return a;
+		}
+		else {
+			return b;
+		}
+	}
+	
+	
+public static void main(String[] args) {
+	System.out.println(largest(30,100));
+	
+	}
+	
+}
+
+(OP)-100.
+
 
 
 
