@@ -65,6 +65,29 @@ Task No-5
 	}
 }
 
+	Task No-6
+//Create a function to return area of a circle.
+	int a=10;
+	
+	int area=4*a;
+	{
+		System.out.println("Area: " +area);
+	}
+	int r=25;
+	float circle=(float)(2*3.14*a*r);
+	{
+		System.out.println("circle:"+circle);
+	}
+	public static void main(String[] args) {
+    Hellotask h=new Hellotask();
+    
+
+	
+	
+	
+}
+}
+
 
 
 
