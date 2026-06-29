@@ -125,6 +125,39 @@ public static void main(String[] args) {
 	
 }
 }
+Task No:9
+Create a function that returns the length of a string.
+	public static int stringLength(String str) {
+		return str.length();
+		
+}
+	public static void main(String[] args) {
+		String text="Welcome";
+		System.out.println(stringLength(text));
+		
+	}
+}
+
+//	Task NO:10	
+//	Create a function to convert Celsius to Fahrenheit.	
+// F=c*(9/5)+32
+// c=1
+//   F=1*(9/5)+32
+//   F=1.8+32
+//   F=33.8F
+//	1-celsius=33.8F
+	public static double celsiustoFarenheit (double celsius) {
+		return(celsius*9/5)+32;
+	}
+	public static void main(String[] args) {
+		System.out.println(celsiustoFarenheit(50));
+	
+	
+		
+	}
+}
+
+
 
 
 
