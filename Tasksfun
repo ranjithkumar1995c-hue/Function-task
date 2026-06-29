@@ -107,6 +107,25 @@ Task No:7
 		}
 		
     }
+Task No-8	
+	Create a function to check whether a number is divisible by 6.
+	public static boolean isdivisibleBy6(int number) {
+		 return(number%6==0);
+	}
+	
+public static void main(String[] args) {
+	int num=36;
+	if(isdivisibleBy6(num)) {
+		System.out.println(num+"is divisible by 6.");
+		
+	}
+	else {
+		System.out.println(num+"is not divisible by 6.");
+	}
+	
+}
+}
+
 
 
 
