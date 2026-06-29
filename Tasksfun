@@ -196,6 +196,22 @@ public static void main(String[] args) {
 }
 
 (OP)-100.
+Task No-12
+//	Create a function to print numbers from 1 to N.
+	public static void printNumbers(int n) {
+		
+			for(int i=1; i<n; i++);{
+		    System.out.println(n);
+	
+	}}
+	
+
+public static void main(String[] args) {
+	printNumbers(5);
+}
+
+}
+(o.p)-1 2 3 4 5
 
 
 
