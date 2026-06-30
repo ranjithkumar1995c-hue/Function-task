@@ -274,7 +274,29 @@ Task no-15
 	
 }}
 (O.P)-True,False,False,False.
-
+Task No:16
+//	Create a function to check if number is prime.
+	public static boolean isprime(int number) {
+		if(number<=1) {
+			return false;
+		}
+	for (int i=2;i<=Math.sqrt(number);i++){
+		if(number% i==0) {
+			return false;
+		}
+	}
+	return true;
+	}
+	public static void main(String[] args) {
+		System.out.println(isprime(7));
+		System.out.println(isprime(8));
+		System.out.println(isprime(13));
+		System.out.println(isprime(21));
+		
+	}
+	
+}
+(o.p)-True,False,True,False
 
 
 
