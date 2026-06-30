@@ -363,6 +363,27 @@ public static void main(String[] args) {
 }
 (OP)-True,False.
 
+Task NO:20
+//	Create a function to find GCD of two numbers.
+	public static int GCD(int a,int b)
+	{
+		while(b!=0) {
+			int sum=b;
+			b=a%b;
+			a=sum;
+		}
+		return a;
+		}
+	public static void main(String[] args) {
+		System.out.println(GCD(36,6));
+		System.out.println(GCD(48,18));
+		System.out.println(GCD(100,25));
+	
+	
+}
+}
+(OP)-6,6,25
+
 
 
 
