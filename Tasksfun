@@ -258,6 +258,23 @@ public static void main(String[] args) {
 	
 	
 }}
+Task no-15
+// Create a function to check whether a number is zero.
+	public static boolean  isZero(int number)
+	{
+		return number==0;
+	}
+	public static void main(String[] args) {
+		System.out.println(isZero(0));
+		System.out.println(isZero(15));
+		System.out.println(isZero(46));
+		System.out.println(isZero(-6));
+		
+		
+	
+}}
+(O.P)-True,False,False,False.
+
 
 
 
