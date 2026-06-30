@@ -212,7 +212,36 @@ public static void main(String[] args) {
 
 }
 (o.p)-1 2 3 4 5
+Task No:13
+//Create a function to count digits of a number.
+	public static int countdigits(int number) 
+	{
+		number=Math.abs(number);
+	
+	if(number==0) {
+		return 1;
+	}
+	int count=0;
+	while(number>0) {
+		number/=10;
+		count++;
+	}
+	return count;
+}
 
+public static void main(String[] args) {
+//	Hellotask h=new Hellotask();
+	System.out.println(countdigits(12345));
+	System.out.println(countdigits(40));
+	System.out.println(countdigits(-789));
+
+	
+	
+	
+	
+}}
+
+(o.p)-5,2,3
 
 
 
