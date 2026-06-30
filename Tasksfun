@@ -297,7 +297,29 @@ Task No:16
 	
 }
 (o.p)-True,False,True,False
+//Task No:17
+//	Create a function to return factorial of a number.
+	public static long factorial(int n) {
+		if(n<0) {
 
+		}
+			long fact=1;
+		
+		   for(int i=1;i<=n;i++)
+		    {
+		       fact*=i;
+		    }
+		   return fact;
+		}
+			
+public static void main(String[] args) {
+	System.out.println(factorial(5));
+	System.out.println(factorial(6));
+
+	}
+	
+}
+(OP)-120,720
 
 
 
