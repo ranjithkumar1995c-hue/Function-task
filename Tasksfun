@@ -320,6 +320,25 @@ public static void main(String[] args) {
 	
 }
 (OP)-120,720
+// Task No:18
+//Create a function to return Fibonacci series up to N terms.
+	public static void Fibonaci(int n) {
+		int a=0,b=1;
+		for(int i=1;i<=n;i++)
+		{
+			System.out.println(a+" ");
+			int next=a+b;
+			a=b;
+			b=next;
+		}}
+	public static void main(String[] args) {
+		Fibonaci(10);
+//		Fibonaci(20);
+		
+		
+	}
+}
+(OP)=>0,1,1,2,3,5,8,13,21,34
 
 
 
