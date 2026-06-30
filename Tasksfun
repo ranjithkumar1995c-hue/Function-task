@@ -382,8 +382,27 @@ Task NO:20
 	
 }
 }
-(OP)-6,6,25
+(OP)-6,18,25
 
+Task No:21
+//Create a function to find LCM of two numbers.
+	public static int LCM(int a,int b)
+	{
+		int x=a,y=b;
+		while(y!=0) {
+			int sum=y;
+			y=x%y;
+			x=sum;
+		}
+		return(a*b)/x;
+		}
+	public static void main(String[] args) {
+		System.out.println(LCM(36,12));
+		System.out.println(LCM(48,12));
+	
+}
+}
+(OP)-36,48.
 
 
 
