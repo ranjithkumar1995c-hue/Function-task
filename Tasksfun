@@ -429,6 +429,26 @@ Task No:21
 	
 	}
 (OP)-Leap Year,Not Leap  Year.
+//Task No:24
+//Create a function to calculate simple interest.
+	public float interest() {
+	      
+	float p=10;
+	float n=20;
+	float r=30;
+	float i=(p*n*r/100);
+	return i;
+	}
+	public static void main(String[] args) {
+			Hellotask h=new Hellotask();
+			System.out.println(h.interest());
+			
+	
+	
+	}
+
+}
+(O.P)-60
 
 
 
