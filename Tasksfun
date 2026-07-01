@@ -536,7 +536,25 @@ Task No:26
 		
 }}
 (OP)-merged array{1,2,3,4,5,6}
-
+Task no:28
+//	Create a function to remove duplicates from array.
+	public int[]removeduplicate(int[]arr){
+		HashSet<Integer>set=new Hashset<>();
+		for(int num:arr) {
+			set.add(num);
+		}
+		int[]result=new int [set.size()];
+		int index=0;
+		for(int num:set) {
+			result[index++]=num;
+		}
+		return result;
+	}
+	public static void main(String[] args) {
+		int[]arr= {1,1,2,2,3,4,4,5,6};
+		int[]uniquearray=removeduplicate(arr);
+		System.out.println("array without duplicate:"+Array.tostring(uniquearray));
+(o.p)-{1,2,3,4,5,6}
 
 
 
