@@ -404,6 +404,31 @@ Task No:21
 }
 (OP)-36,48.
 
+ Task No:24
+// Create a function to check leap year.
+//	Scanner SC=new Scanner(System.in);
+//	int n=SC.nextInt();{
+	public  void leap(int n) {
+		
+	
+	if((n%4==0)|| (n%400==0) || (n%100==1))
+	
+	{
+		System.out.println("Leap Year");
+	}
+	else {
+		System.out.println("Not Leap Year");
+	}
+	}
+	public static void main(String[] args) {
+		Hellotask h=new Hellotask();
+		h.leap(1996);
+		h.leap(1986);
+		
+	}
+	
+	}
+(OP)-Leap Year,Not Leap  Year.
 
 
 
