@@ -578,8 +578,25 @@ Task no-29
 }
 
 (O.P)-15
+/ Task NO:30
+//	Create a function to swap two numbers (using return).
+	public int[] swap(int a,int b) {
+		return new int[] {b,a};
+	}
+		
+     public static void main(String[] args) {
+			int a=10,int b=20;
+			int[]result=swap(a,b);
+			System.out.println("After swaping:");
+			System.out.println("a="+result[0]);
+			System.out.println("b="+result[1]);
+		
+		}
+	
+		
+	}
 
-
+(o.p)-a=20,b=10.
 
 
 
