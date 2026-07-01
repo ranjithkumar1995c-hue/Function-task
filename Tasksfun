@@ -403,6 +403,46 @@ Task No:21
 }
 }
 (OP)-36,48.
+//Task No:22
+//	Create a function to find second largest in array.
+	public  int secondlargest(int[]arr) {
+		if(arr.length<2) {
+			
+		}}
+		int largest=Integer.MIN_VALUE;
+		int secondlargest=Integer.MIN_VALUE;
+		for(int num:arr) {
+			if(num<largest) {
+				secondlargest=largest;
+				largest =num;
+			}
+			else if(num>secondlargest&& num!=largest);{
+				secondlargest=num;
+			}
+			return secondlargest;
+		}
+}
+		public static void main(String[] args) {
+			Hellotask h=new Hellotask();
+			int[]arr= {10,15,20,25,30};
+		    System.out.println(h.secondlargest(arr));
+		}
+}
+(OP)-25.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  Task No:24
 // Create a function to check leap year.
