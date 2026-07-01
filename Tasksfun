@@ -554,9 +554,30 @@ Task no:28
 		int[]arr= {1,1,2,2,3,4,4,5,6};
 		int[]uniquearray=removeduplicate(arr);
 		System.out.println("array without duplicate:"+Array.tostring(uniquearray));
-(o.p)-{1,2,3,4,5,6}
+(o.p)-{1,2,3,4,5,6}.
 
+Task no-29
+//	Create a function to find sum of digits of a number.
+	public int Hellotask(int number) {
+		int sum=0;
+		while(number!=0) {
+			sum+=number%10;
+			number/=10;
+		}
+		return sum;
+	}
+	public static void main(String[] args) {
+		int number=54321;
+		Hellotask h=new Hellotask();
+	//	h.Hellotask(12345);
+		System.out.println(h.Hellotask(54321));
+		
+	
+		
+	}
+}
 
+(O.P)-15
 
 
 
