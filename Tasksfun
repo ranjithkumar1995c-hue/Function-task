@@ -502,7 +502,8 @@ Task No:26
 				
 		System.out.println("Total="+tot);
 		System.out.println("Average="+average);
-
+}}
+(OP)-Total=150,Average=30.0
 
 
 
