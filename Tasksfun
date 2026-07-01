@@ -489,6 +489,19 @@ Task No:21
 
 }
 (O.P)-60
+Task No:26
+//	Create a function to return average of array elements.
+	public int sum(int a,int b,int c,int d,int e) {
+		int t=a+b+c+d+e;
+		return t;
+	}
+	public static void main(String[] args) {
+	int arr[]= {10,20,30,40,50};
+    int tot=(10+20+30+40+50);
+		double average=tot/5;
+				
+		System.out.println("Total="+tot);
+		System.out.println("Average="+average);
 
 
 
