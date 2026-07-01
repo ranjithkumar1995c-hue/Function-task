@@ -451,21 +451,6 @@ public static void main(String[] args) {
 	String text="welcome";
 	System.out.println("Number of vowels:"+countVowels(text));
 }}	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  Task No:24
 // Create a function to check leap year.
 //	Scanner SC=new Scanner(System.in);
@@ -526,6 +511,31 @@ Task No:26
 		System.out.println("Average="+average);
 }}
 (OP)-Total=150,Average=30.0
+
+//Task No:27
+//	Create a function to merge two arrays.
+	public int[]mergearray(int[]arr1,int[]arr2){
+	
+	for(int i=0;i<arr1.length;i++)
+	{
+		merged[i]=arr1[i];
+	}
+	for(int i=0;i<arr2.length;i++) {
+		merged[i]=arr2[i];
+	}
+	return merged;
+}
+	public static void main(String[] args) {
+		int[]arr1= {1,2,3};
+		int[]arr2= {4,5,6};
+		int[]result=mergearrays(arr1,arr2);
+		System.out.println("merged array: ");
+		for(int num:result) {
+			System.out.println(num+" ");
+		}
+		
+}}
+(OP)-merged array{1,2,3,4,5,6}
 
 
 
