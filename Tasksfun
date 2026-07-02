@@ -688,6 +688,23 @@ public static void main(String[] args) {
 	
 }}
 (O.P)-(5,2,3)
-
+// Task No-50
+//Find sum of digits of a number.
+	public int Hellotask(int number) {
+ 		int sum=0;
+		while(number!=0) {
+			sum+=number%10;
+			number/=10;
+		}
+		return sum;
+	}
+	public static void main(String[] args) {
+		int number=54321;
+		Hellotask h=new Hellotask();
+//		h.Hellotask(12345);
+		System.out.println(h.Hellotask(54321));
+	
+}}
+(O.P)-15
 
 
