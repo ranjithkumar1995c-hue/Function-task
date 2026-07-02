@@ -660,7 +660,34 @@ Task No:48
 //		int n=5;
 //		System.out.println(sum(n));
 		h.sum(6);
+// Task No:49
+// Count the number of digits in a number.
+   public static int countdigits(int number) 
+	{
+		number=Math.abs(number);
+	
+	if(number==0) {
+		return 1;
+	}
+	int count=0;
+	while(number>0) {
+		number/=10;
+		count++;
+	}
+	return count;
+}
+
+public static void main(String[] args) {
+	Hellotask h=new Hellotask();
+	System.out.println(countdigits(12345));
+	System.out.println(countdigits(40));
+	System.out.println(countdigits(-789));
 		
+		
+		
+	
+}}
+(O.P)-(5,2,3)
 
 
 
