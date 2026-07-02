@@ -598,6 +598,23 @@ Task no-29
 
 (o.p)-a=20,b=10.
 
+//Task No-47	
+//	Recursion tasks
+// Find factorial of a number	
+	public int fact(int n)
+	{
+		if(n==1)
+			return n;
+		else
+			return(n*fact(n-1));
+	}
+	   public static void main(String[] args) {
+		   Hellotask h=new Hellotask();
+		   System.out.println(h.fact(6));
+	
+}}
+(O.P)-720
+
 
 
 
